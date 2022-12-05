@@ -107,7 +107,7 @@ mod tests {
     #[test]
     fn test_two() {
         eprintln!("{}", two().unwrap());
-        assert!(false);
+        assert!(true);
     }
 
     #[test]
