@@ -111,7 +111,6 @@ impl Cave {
     }
 
     fn pour_sand(&mut self) {
-        let mut count = 0;
         while let Some(_) = self.drop_sand() {}
     }
 
